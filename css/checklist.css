@@ -1,0 +1,61 @@
+.blank {
+    margin: 0 auto;
+    min-width: 500px;
+    width: 50%;
+    text-align: left;
+    color: #3b3b3b;
+    font-weight: bold;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+
+
+.add-items input[type="text"] {
+    outline: 0;
+    height: auto;
+    border: none;
+    font-size: 18px;
+    font-weight: normal;
+    padding-left: 10px;
+    border: 3px solid #909090;
+}
+
+.add {
+    margin-top: 10px;
+    outline: 0;
+    width: 34%;
+    height: 45px;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    background-color: #3b3b3b;
+}
+
+#list-items a {
+  text-decoration: none;
+  color: #3b3b3b;
+}
+ul {
+    padding: 0;
+    text-align: left;
+    list-style: none;
+}
+hr {
+    border-bottom: 0;
+    margin: 15px 0;
+    border-top: 1px solid #463e3e;
+}
+
+input[type="checkbox"] {
+  display: inline;
+    width: 30px;
+}
+
+.remove {
+    float: right;
+    cursor: pointer;
+    text-decoration: none;
+    color: #3b3b3b;
+}
+

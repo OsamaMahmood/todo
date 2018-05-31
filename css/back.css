@@ -1,0 +1,111 @@
+body{
+    
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    min-height: 100%;
+}
+.container {
+    margin: 0 auto;
+    min-width: 500px;
+    width: 45%;
+    text-align: left;
+    color: #3b3b3b;
+    font-weight: bold;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+form {
+    outline: 0;
+    height: 36px;
+    margin-top: 5%;
+    border: 3px solid #909090;
+}
+
+input[type="text"] {
+    outline: 0;
+    width: 55%;
+    height: 32px;
+    border: none;
+    font-size: 18px;
+    font-weight: normal;
+    padding-left: 10px;
+}
+
+.add {
+    outline: 0;
+    float: right;
+    width: 34%;
+    height: 36px;
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    background-color: #3b3b3b;
+}
+
+a {
+  text-decoration: none;
+  color: #3b3b3b;
+}
+
+ul {
+    padding: 0;
+    text-align: left;
+    list-style: none;
+}
+
+hr {
+    border-bottom: 0;
+    margin: 15px 0;
+}
+
+input[type="checkbox"] {
+    width: 30px;
+}
+
+.remove {
+    float: right;
+    cursor: pointer;
+    text-decoration: none;
+    color: #3b3b3b;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+
+/*-----*/
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  top: 0; 
+  width: 100%;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}

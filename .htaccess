@@ -1,0 +1,7 @@
+ErrorDocument 404 /todo/404.html
+
+RewriteEngine On
+RewriteBase /todo
+
+RewriteCond %{REQUEST_URI} ^/404/$
+RewriteRule ^(.*)$ <YourRelativePathToPHPFile>/todo/404.html [L]
